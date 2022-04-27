@@ -1,0 +1,26 @@
+[
+   {"id": 1,
+    "cedula": "1350352777",
+    "nombres": "Rey Cruz",
+    "apellidos": "Mera Macías",
+    "email": "rmera77@planvacunacion.com",
+    "rol": "Administrador",
+    "fecha_nacimiento": "",
+    "direccion": "",
+    "telefono": "",
+    "estado_vacunacion": "",
+    "password": ""
+},
+{"id": 2,
+    "cedula": "1350212154",
+    "nombres": "Carlos Manuel",
+    "apellidos": "Zambrano Mendoza",
+    "email": "rmera77@planvacunacion.com",
+    "rol": "Administrador",
+    "fecha_nacimiento": "",
+    "direccion": "",
+    "telefono": "",
+    "estado_vacunacion": "",
+    "password":""
+}
+]
