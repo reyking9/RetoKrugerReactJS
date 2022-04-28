@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "cedula": "1350212344444",
+      "cedula": "13502123444",
       "nombres": "Carlos Manuel",
       "apellidos": "Zambrano Mendoza",
       "email": "comosea",
@@ -28,41 +28,15 @@
     },
     {
       "id": 3,
-      "cedula": "1432342342",
-      "nombres": "ewrerwerew",
-      "apellidos": "ewrwrwerw",
-      "email": "werwerwerw",
-      "rol": "",
-      "fecha_nacimiento": "",
-      "direccion": "",
-      "telefono": "",
-      "estado_vacunacion": "",
-      "password": ""
-    },
-    {
-      "id": 4,
-      "cedula": "13000",
-      "nombres": "rey",
-      "apellidos": "macias",
-      "email": "reymacias",
-      "rol": "",
-      "fecha_nacimiento": "",
-      "direccion": "",
-      "telefono": "",
-      "estado_vacunacion": "",
-      "password": "123"
-    },
-    {
-      "id": 5,
-      "cedula": "14000",
-      "nombres": "rere",
-      "apellidos": "qweqwe",
-      "email": "hola",
+      "cedula": "1350000",
+      "nombres": "Jorge Luis",
+      "apellidos": "Quijano Macías",
+      "email": "jorge@email.com",
       "rol": "Empleado",
-      "fecha_nacimiento": "2022-04-07",
-      "direccion": "qweqwe",
-      "telefono": "21313",
-      "estado_vacunacion": "Vacunado",
+      "fecha_nacimiento": "",
+      "direccion": "",
+      "telefono": "",
+      "estado_vacunacion": "",
       "password": "123"
     }
   ]
