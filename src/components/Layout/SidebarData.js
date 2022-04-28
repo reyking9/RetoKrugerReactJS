@@ -8,24 +8,28 @@ export const SidebarData = [
     title: 'Pagina de incio',
     path: '/home',
     icon: <AiIcons.AiFillHome />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    rol: 'Empleado'
   },
   {
     title: 'Lista de usuarios ',
     path: '/list',
     icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    rol: 'Administrador'
   },
   {
     title: 'Perfil',
     path: '/perfil',
     icon: <FaIcons.FaUserCircle />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    rol: 'Empleado'
   },
-  {
+/*   {
     title: 'Cerrar Sesion',
-    path: '/perfil',
+    path: '/logaut',
     icon: <IoIcons.IoMdExit/>,
-    cName: 'nav-text'
-  },
+    cName: 'nav-text',
+    rol: 'Empleado'
+  }, */
 ];

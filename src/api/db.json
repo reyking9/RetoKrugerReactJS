@@ -15,15 +15,15 @@
     },
     {
       "id": 2,
-      "cedula": "1350212",
+      "cedula": "1350212344444",
       "nombres": "Carlos Manuel",
       "apellidos": "Zambrano Mendoza",
       "email": "comosea",
       "rol": "Administrador",
-      "fecha_nacimiento": "2022-04-07",
+      "fecha_nacimiento": "2022-03-31",
       "direccion": "qweqwesdadsa",
       "telefono": "qweqweqweq",
-      "estado_vacunacion": "qweqweqe",
+      "estado_vacunacion": "No Vacunado",
       "password": "321"
     },
     {
@@ -41,29 +41,29 @@
     },
     {
       "id": 4,
-      "cedula": "132123123",
-      "nombres": "Joseph Arias",
-      "apellidos": "Arias Ponce",
-      "email": "lugugug@gmaslda",
+      "cedula": "13000",
+      "nombres": "rey",
+      "apellidos": "macias",
+      "email": "reymacias",
       "rol": "",
       "fecha_nacimiento": "",
       "direccion": "",
       "telefono": "",
       "estado_vacunacion": "",
-      "password": ""
+      "password": "123"
     },
     {
       "id": 5,
-      "cedula": "1402",
-      "nombres": "rey",
-      "apellidos": "cruz",
-      "email": "mera",
-      "rol": "",
-      "fecha_nacimiento": "",
-      "direccion": "",
-      "telefono": "",
-      "estado_vacunacion": "",
-      "password": ""
+      "cedula": "14000",
+      "nombres": "rere",
+      "apellidos": "qweqwe",
+      "email": "hola",
+      "rol": "Empleado",
+      "fecha_nacimiento": "2022-04-07",
+      "direccion": "qweqwe",
+      "telefono": "21313",
+      "estado_vacunacion": "Vacunado",
+      "password": "123"
     }
   ]
 }

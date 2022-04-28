@@ -1,11 +1,11 @@
 import React from 'react';
-
 const UserTable = (props) => {
 //	console.log(props.users[0])
 	const datos = (props.users)
 //	console.log(datos)
 	return (
-		<table>
+		<div id="centrarlo">
+		<table id="customers">
 			<thead>
 				<tr>
 					<th>Cédula</th>
@@ -36,8 +36,7 @@ const UserTable = (props) => {
 									className='button muted-button'
 									onClick={() => {
 										props.delete(user.id);
-									}}
-								>
+									}}>
 									Eliminar
 								</button>
 							</td>
@@ -50,6 +49,7 @@ const UserTable = (props) => {
 				)}
 			</tbody>
 		</table>
+</div>
 	);
 };
 

@@ -1,19 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import { helpHttp } from '../helpers/helpHttp';
 
-
-
 let api = helpHttp();
 let url = "http://localhost:5000/UsersVacunation";
 
-
-
 function FormPerfil(){
-
   const dataJSON = JSON.parse(localStorage.getItem('data'));
   console.log(dataJSON)
   const [users, setUsers] = useState([dataJSON]);
-
   useEffect(() => {
     helpHttp()
       .get(url+"/"+dataJSON.id)
@@ -26,7 +20,6 @@ function FormPerfil(){
         }
       });
   }, [url+"/"+dataJSON.id]);
-  
   const NuevoDato = (e) => {
     setUsers({ ...users, [e.target.name]: e.target.value });
      console.log(e.target.name, e.target.value);
@@ -45,11 +38,17 @@ function FormPerfil(){
     })
   }; 
   return (
-    <div>
+    <div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Sistema Vacunación</h1>
+			</div>
+			<div class="login-form">
+				<div class="control-group">
       <h1>DATOS DE PERFIL</h1>
       <form>
           <div key={ dataJSON.id }>
-            <label>Cédula:</label>
+            <label  >Cédula:</label>
             <input type="text" name="cedula" value={users.cedula} onChange={NuevoDato}/>
             <label>Nombres:</label>
             <input type="text" name="nombres" value={users.nombres} onChange={NuevoDato}/>
@@ -64,13 +63,20 @@ function FormPerfil(){
             <label>Telefono:</label>
             <input type="text" name="telefono" value={users.telefono} onChange={NuevoDato}/>
             <label>Estado de vacunación:</label>
-            <input type="text" name="estado_vacunacion" value={users.estado_vacunacion} onChange={NuevoDato}/>
+            <select name="estado_vacunacion" value={users.estado_vacunacion} onChange={NuevoDato}>
+            <option>Sin Dato</option>
+            <option >Vacunado</option>
+            <option >No Vacunado</option>
+            </select>
+            <label>Contraseña:</label>
+            <input type="password" name="password" value={users.password} onChange={NuevoDato}/>
             <button onClick={updateUser} > Guardar</button>
             </div>
        </form>
     </div>
- 
+    </div>
+    </div>
+    </div>
   );
 }
-
 export default FormPerfil;
