@@ -39,7 +39,7 @@ const UserForm = (props) => {
 			<div>{errors?.apellido?.message}</div>
 			<label>Correo Electronico</label>
 			<input
-				type='text'
+				type='email'
 				name='email'
 				{...register('email', { required: true })}
 			/>

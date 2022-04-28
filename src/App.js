@@ -23,11 +23,6 @@ import CrudApi from "./views/CrudApi";
     </Router>
   );
 }
-
- const LogOut = () => {
-localStorage.removeItem('data');
-  useNavigate('/') 
-} 
 const Dashboard = () => {
   return (
     <>
@@ -37,8 +32,7 @@ const Dashboard = () => {
         <Route path='/home' element={<Home/>} />
         <Route path='/list' element={<CrudApi/>} />
         <Route path='/perfil' element={<FormPerfil/>} />
-        <Route path='/logaut' element={  <LogOut/> } />
-      </Routes>
+       </Routes>
     </Router>
   </>
   );
@@ -52,13 +46,6 @@ let checkSesion
     checkSesion= true
     }     
     function App() {
-  /* useEffect(() => {
-    if (dataJSON) {
-      localStorage.clear();
-     <Navigate to ='/'/>}
-    console.log("Carlitos holi :D")
-    }, [checkSesion]);  */
-
   return (
     checkSesion ? <Dashboard/> : <Logi/>
  );
